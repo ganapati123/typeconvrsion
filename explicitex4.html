@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>explicit</title>
+</head>
+<body>
+    <script>
+        var x = Boolean(6)
+        console.log(x)//true
+
+        var x = Boolean("")
+        console.log(x)//false
+
+        var x = Boolean(" ")
+        console.log(x)//true
+
+
+        var x = Boolean(true)
+        console.log(x)//true
+
+        var x = Boolean(false)
+        console.log(x)//false
+
+        var x = Boolean(null)
+        console.log(x)//false
+
+        var x = Boolean(undefined)
+        console.log(x)//false
+    </script>
+</body>
+</html>
